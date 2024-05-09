@@ -23,6 +23,11 @@ rm -rf ~/.config/nvim/.git
 nvim
 
 echo  'alias vi=nvim' > ~/.zshrc
+
+# 이건 내 개인 설정 추가 
+git clone --depth 1 https://github.com/kimutae1/neovim
+cp -r neovim/* ~/.config/nvim/
+
 ```
 
 ## addon setting
